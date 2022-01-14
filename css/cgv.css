@@ -1,5 +1,5 @@
 	/*******************************
-		°øÅë style sheet
+		ï¿½ï¿½ï¿½ï¿½ style sheet
 	********************************/
 	* { margin:0; padding:0; }
 	header, div.bg_carousel, footer {
@@ -10,6 +10,8 @@
 		width:1000px;
 		/*background-color:powderblue;*/
 		margin:auto;
+		color: blue;
+		padding: 0%;
 	}
 	div.bg_footer { text-align:center; }
 	section.login {
@@ -41,7 +43,7 @@
 	 	outline:1px double red;
 	 	margin-right:10px;
 	}
-	.btn_style2 {  /* È¸¿ø°¡ÀÔ - Áßº¹È®ÀÎ, ÁÖ¼ÒÃ£±â ¹öÆ° ½ºÅ¸ÀÏ */
+	.btn_style2 {  /* È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - ï¿½ßºï¿½È®ï¿½ï¿½, ï¿½Ö¼ï¿½Ã£ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½Å¸ï¿½ï¿½ */
 	 	font-size:9pt;
 	 	width:70px;
 	 	padding:8px 0;
@@ -51,7 +53,7 @@
 	 	border-radius:7px;
 	 	margin-left:5px;
 	}
-	.btn_style3 {	/* °øÁö»çÇ×, °Ô½ÃÆÇ ¹öÆ° ½ºÅ¸ÀÏ */
+	.btn_style3 {	/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ° ï¿½ï¿½Å¸ï¿½ï¿½ */
 	 	font-size:10pt;
 	 	font-weight:700;
 	 	width:100px;
@@ -223,7 +225,7 @@
 	}
 	
 	/*****************************************
-		·Î±×ÀÎ  style
+		ï¿½Î±ï¿½ï¿½ï¿½  style
 	******************************************/
 	form[name="loginForm"] ul {
 		list-style-type:none;
@@ -256,7 +258,7 @@
 	}
 	
 	/*****************************************
-		È¸¿ø°¡ÀÔ  style
+		È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  style
 	******************************************/
 	form[name="joinForm"] ul {
 		list-style-type:none;
@@ -326,7 +328,7 @@
 	
 	
 	/*************************************
-		¸¶ÀÌÆäÀÌÁö style
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ style
 	**************************************/
 	section.login article div {
 		width:200px;
@@ -348,7 +350,7 @@
 	}
 	
 	/*********************************
-		°øÁö»çÇ×, °Ô½ÃÆÇ °øÅë style
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ style
 	**********************************/
 	section.login table , section.login th, section.login td{
 		border-collapse:collapse;
@@ -365,7 +367,7 @@
 	}
 	
 	/****************************
-		°øÁö»çÇ×, °Ô½ÃÆÇ - ¸®½ºÆ®
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ô½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½Æ®
 	*****************************/
 	table.notice_list tr td:nth-child(2), table.board_list tr td:nth-child(2) {
 		text-align:left;
@@ -384,7 +386,7 @@
 	}
 	
 	/****************************
-		°øÁö»çÇ×, °Ô½ÃÆÇ - »ó¼¼Á¤º¸
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½Ô½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	*****************************/
 	table.notice_content tr td, table.board_content tr td {
 		text-align:left;
@@ -400,7 +402,7 @@
 	}
 	
 	/*********************************
-		°Ô½ÃÆÇ - ¸®½ºÆ®
+		ï¿½Ô½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½Æ®
 	*********************************/
 	table.board_list tr:first-child td {
 		text-align:right;
@@ -415,7 +417,7 @@
 	}
 	
 	/**********************************
-		°Ô½ÃÆÇ - ±Û¾²±â, ¼öÁ¤È­¸é, »èÁ¦È­¸é
+		ï¿½Ô½ï¿½ï¿½ï¿½ - ï¿½Û¾ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½
 	***********************************/
 	table.board_write, table.board_update, table.board_delete { width:100%; }
 	table.board_write th, table.board_update th  {
@@ -435,7 +437,7 @@
 	}
 	table.board_write textarea, table.board_update textarea {
 		height:200px;		
-		font-family:"¸¼Àº °íµñ";
+		font-family:"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½";
 	}
 	table.board_write tr:last-child td, table.board_update tr:last-child td,
 	table.board_delete tr:last-child td {
@@ -454,7 +456,7 @@
 	}
 
 	/***********************************************
-		°Ô½ÃÆÇ »èÁ¦È­¸é
+		ï¿½Ô½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½
 	************************************************/
 	table.board_delete tr:first-child img {
 		width:40%;
@@ -469,9 +471,9 @@
 	
 	
 	/*********************************
-		°ü¸®ÀÚ ÆäÀÌÁö - °øÁö»çÇ× °ü¸®
+		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	*********************************/
-	.admin_notice_bgcolor { /* °øÁö»çÇ× Å×ÀÌºí Á¦¸ñ ¹é±×¶ó¿îµå */
+	.admin_notice_bgcolor { /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½×¶ï¿½ï¿½ï¿½ */
 		background:tomato;
 		color:white;
 		font-weight:700;
